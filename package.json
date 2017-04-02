@@ -1,0 +1,35 @@
+{
+  "name": "todo-node-express",
+  "version": "1.0.0",
+  "description": "todo-node-express",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danillosl/todo-node-express.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "mongo"
+  ],
+  "author": "danillosl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danillosl/todo-node-express/issues"
+  },
+  "homepage": "https://github.com/danillosl/todo-node-express#readme",
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcryptjs": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  }
+}
