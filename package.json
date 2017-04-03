@@ -23,14 +23,11 @@
   },
   "homepage": "https://github.com/danillosl/todo-node-express#readme",
   "dependencies": {
-    "bcryptjs": "*",
     "body-parser": "*",
     "cors": "*",
     "express": "*",
-    "jsonwebtoken": "*",
     "mongoose": "*",
-    "mongoose-id": "^0.1.3",
-    "passport": "*",
+    "mongoose-id": "*",
     "passport-jwt": "*"
   }
 }
