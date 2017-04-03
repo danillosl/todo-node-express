@@ -17,6 +17,6 @@ TodoSchema.plugin(idPlugin);
 
 const todo = module.exports = mongoose.model('todoModel', TodoSchema);
 
-module.exports.findAll = function(callback){
+module.exports.findAll = function (callback) {
   todo.find({}, callback);
 }

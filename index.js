@@ -17,7 +17,7 @@ mongoose.connection.on('connected', () => {
 
 // On Error
 mongoose.connection.on('error', (err) => {
-  console.log('Database error: '+err);
+  console.log('Database error: ' + err);
 });
 
 
@@ -28,7 +28,7 @@ app.use(bodyParser.json());
 app.use(cors());
 
 
-app.use(properties.apiVersion  + '/todos' ,todo);
+app.use(properties.apiVersion + '/todos', todo);
 
 // Index Route
 app.get('/', (req, res) => {

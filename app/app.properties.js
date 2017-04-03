@@ -1,4 +1,4 @@
 module.exports = {
-  database: 'mongodb://teste:teste@ds033135.mlab.com:33135/todos',
+  database: 'mongodb://<user>:<password>@<url>:<port>/<database>',
   apiVersion: '/api'
 }
