@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+var idPlugin = require('mongoose-id');
 
 // User Schema
 const TodoSchema = mongoose.Schema({
@@ -11,6 +12,8 @@ const TodoSchema = mongoose.Schema({
     required: true
   }
 });
+
+TodoSchema.plugin(idPlugin);
 
 const todo = module.exports = mongoose.model('todoModel', TodoSchema);
 
